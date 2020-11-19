@@ -1,0 +1,11 @@
+Url To test :
+http://localhost:3000/catalog/helloPhilippe
+http://localhost:3000/catalog/hello?name=Sophie&name=Philippe
+http://localhost:3000/catalog/hello
+http://localhost:3000/catalog/hello?name=Agn%C3%A8s
+
+Pour activer l'appel à chuck norris
+http://localhost:3000/talking/talk?q=Who are you
+
+Pour activer une réponse du moteur
+http://localhost:3000/talking/talk?q=how old are you

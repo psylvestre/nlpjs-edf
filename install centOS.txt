@@ -1,0 +1,5 @@
+npm config set registry https://si-devops-mirror.edf.fr/repository/registry.npmjs.org/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-a-centos-7-server
+wget http://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.gz
+sudo tar --strip-components 1 -xzvf node-v* -C /usr/local

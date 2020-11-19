@@ -1,0 +1,23 @@
+-- For NLPJS --
+
+npm i @nlpjs/basic
+npm i @nlpjs/lang-es
+npm i @nlpjs/express-api-server
+npm i @nlpjs/directline-connector
+
+
+- Déclation d'un appel HTTP dans le pipeline.md sur un intent particulier
+- NLPMAnager/Context: pour modifier la réponse avant l'envoi 
+  https://github.com/axa-group/nlp.js/blob/master/docs/v3/nlp-manager.md
+- Slot Filling pour voir le fonctionnement avec des entity
+  https://github.com/axa-group/nlp.js/blob/master/docs/v3/slot-filling.md
+- Load from Excel pour charger tous les langages, intents, entités et réponses
+  https://github.com/axa-group/nlp.js/blob/master/docs/v3/loading-from-excel.md
+  
+-- For Express/Node.js --
+npm i -g express
+npm i @nlpjs/basic
+npm i @nlpjs/lang-es
+
+Pour la création du projet
+express nlpjs-express

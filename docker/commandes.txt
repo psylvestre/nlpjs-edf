@@ -1,0 +1,20 @@
+-- NLPJS and Express --
+-- Build de l'image --
+docker build -t nlpjs .
+docker run -it --rm --name nlpjs -p 3000:3000 nlpjs
+
+-- nlp.js app --
+git clone du projet
+docker compose up
+
+url de mongo-express : 
+http://webadmin:webadmin@localhost:8081/
+
+url de nlp.js app
+http://localhost:3000/
+
+Dans le docker-compose
+remplacer le ${PWD} par ./
+Dans la base Mongo avec Mongo-Express
+créer la base nlpjs
+créer le compte nlpjs_user sur nlpjs
