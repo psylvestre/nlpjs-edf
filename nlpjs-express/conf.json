@@ -3,12 +3,13 @@
     "nlp": {
       "corpora": [
         "./nlpjs/corpus/corpus-en.json",
-        "./nlpjs/corpus/corpus-es.json"
+        "./nlpjs/corpus/corpus-es.json",
+        "./nlpjs/corpus/corpus-fr.json"
       ]
     },
     "console": {
       "debug": true
     }
   },
-  "use": ["Basic", "LangEs"]
+  "use": ["Basic", "LangFr"]
 }

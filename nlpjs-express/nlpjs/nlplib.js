@@ -12,7 +12,7 @@ const { dockStart } = require('@nlpjs/basic');
 
 exports.talking = async function(question) {
   console.log('I am talking with a bot...');
-  const conversation = await nlp.process('en', question);
+  const conversation = await nlp.process('fr', question);
   console.log(conversation);
   return conversation;
 };

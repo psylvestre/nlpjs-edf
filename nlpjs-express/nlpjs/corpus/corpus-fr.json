@@ -1,0 +1,27 @@
+{
+    "name": "Corpus Fr",
+    "locale": "fr-FR",
+    "data": [
+        {
+            "intent": "agent.factureinfo",
+            "utterances": [
+              "Je souhaiterais obtenir des informations sur ma facture",
+              "facture",
+              "Je souhaiterais"
+            ],
+            "answers": [
+              { "answer": "Merci, veuillez patienter un instant, je vous met en relation avec un conseiller clientèle" }
+            ]
+          },
+          {
+            "intent": "None",
+            "utterances": [
+              "J'ai besoin d'un conseil",
+              "Je fais quoi ?"
+            ],
+            "answers": [
+              "Désolé, je ne comprends pas"
+            ]
+          }
+    ]
+}
