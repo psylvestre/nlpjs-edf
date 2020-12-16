@@ -5,7 +5,9 @@ http://localhost:3000/catalog/hello
 http://localhost:3000/catalog/hello?name=Agn%C3%A8s
 
 Pour activer l'appel à chuck norris
-http://localhost:3000/talking/talk?q=Who are you
+http://localhost:3000/talking/talk?q=Who%20are%20you
 
 Pour activer une réponse du moteur
-http://localhost:3000/talking/talk?q=how old are you
+http://localhost:3000/talking/talk?q=how%20old%20are%20you
+
+http://localhost:3000/talking/talk?q=Je%20souhaiterais%20obtenir%20des%20informations%20sur%20ma%20facture
